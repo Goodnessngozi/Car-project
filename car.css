@@ -1,0 +1,290 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 7%;
+}
+
+.first{
+    height: 35rem;
+    width: 25rem;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: rgb(255, 123, 0);
+}
+
+.first .circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 50px;
+    top: 50px;
+    position: relative;
+    background-color: rgba(209, 102, 3, 0.464);
+}
+.first h1{
+    margin-top: 7rem;
+    margin-left: 50px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+}
+.first p{
+    margin-top: 2rem;
+    margin-left: 50px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+.first button{
+    margin-left: 50px;
+    height: 50px;
+    width: 9.5rem;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 90px;
+    border: none;
+    color: rgb(255, 123, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+}
+.first button:hover{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+/* -- ....................second........  */
+.second{
+    height: 35rem;
+    width: 25rem;
+    background-color:  rgb(4, 98, 103);
+}
+
+.second .circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 50px;
+    top: 50px;
+    position: relative;
+    background-color: rgba(1, 68, 72, 0.678);
+}
+.second h1{
+    margin-top: 7rem;
+    margin-left: 50px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+}
+.second p{
+    margin-top: 2rem;
+    margin-left: 50px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+.second button{
+    margin-left: 50px;
+    height: 50px;
+    width: 9.5rem;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 90px;
+    border: none;
+    color: rgb(4, 98, 103);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+}
+.second button:hover{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+/* ...................third.............. */
+.third{
+    height: 35rem;
+    width: 25rem;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: rgb(1, 26, 3);
+}
+.third .circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 50px;
+    top: 50px;
+    position: relative;
+    background-color: rgba(3, 43, 5, 0.353);
+}
+.third h1{
+    margin-left: 50px;
+    margin-top: 7rem;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+}
+.third p{
+    margin-top: 2rem;
+    margin-left: 50px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+.third button{
+    margin-left: 50px;
+    height: 50px;
+    width: 9.5rem;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 90px;
+    border: none;
+    color: rgb(1, 26, 3);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+}
+.third button:hover{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+@media (max-width: 627px){
+
+    .main{
+        display: block;
+        margin-top: 5%;
+        margin-left: 7%;
+    }
+
+    .first{
+        height: 35rem;
+        width: 25rem;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 0px;
+        background-color: rgb(255, 123, 0);
+    }
+    .first .circle{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        margin-left: 30px;
+        top: 50px;
+        position: relative;
+        background-color: rgba(209, 102, 3, 0.464);
+    }
+    .first h1{
+        margin-top: 7rem;
+        margin-left: 30px;
+        color: white;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 30px;
+    }
+    .first p{
+        margin-top: 2rem;
+        margin-left: 30px;
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+    }
+    .first button{
+        margin-left: 30px;
+        height: 50px;
+        width: 9.5rem;
+        border-radius: 50px;
+        cursor: pointer;
+        margin-top: 90px;
+        border: none;
+        color: rgb(255, 123, 0);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 17px;
+    }
+    /* .........second........ */
+    .second .circle{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        margin-left: 30px;
+        top: 50px;
+        position: relative;
+        background-color: rgba(1, 68, 72, 0.678);
+    }
+    .second h1{
+        margin-top: 7rem;
+        margin-left: 30px;
+        color: white;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 30px;
+    }
+    .second p{
+        margin-top: 2rem;
+        margin-left: 30px;
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+    }
+    .second button{
+        margin-left: 30px;
+        height: 50px;
+        width: 9.5rem;
+        border-radius: 50px;
+        cursor: pointer;
+        margin-top: 50px;
+        border: none;
+        color: rgb(4, 98, 103);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 17px;
+    }
+    /* ............third........... */
+    .third{
+        height: 35rem;
+        width: 25rem;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-right-radius: 0px;
+        background-color: rgb(1, 26, 3);
+    }
+    .third .circle{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        margin-left: 30px;
+        top: 50px;
+        position: relative;
+        background-color: rgba(3, 43, 5, 0.353);
+    }
+    .third h1{
+        margin-top: 7rem;
+        margin-left: 30px;
+        color: white;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 30px;
+    }
+    .third p{
+        margin-top: 2rem;
+        margin-left: 30px;
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+    }
+    .third button{
+        margin-left: 30px;
+        height: 50px;
+        width: 9.5rem;
+        border-radius: 50px;
+        cursor: pointer;
+        margin-top: 50px;
+        border: none;
+        color: rgb(1, 26, 3);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 17px;
+    }
+    
+    
+}
