@@ -18,5 +18,4 @@ A simple frontend project uses **HTML** and **CSS**.
 <ul>
 <li>HTML</li>
 <li>CSS </li>
-<li>Icon Library (Font Awesome)</li>
 </ul>
